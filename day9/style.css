@@ -1,0 +1,26 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parent-breadcrumb a {
+  color: white;
+  text-decoration: none;
+}
+
+.link-text {
+  color: red;
+  text-decoration: none;
+}
+
+.text {
+  font-weight: 200;
+  color: grey;
+}
+
+.center-contact-boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

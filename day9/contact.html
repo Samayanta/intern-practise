@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        .orange_color {
+            color: orange;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle {
+            border: 3px orange solid;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            height: 45px;
+            width: 45px;
+            color: white;
+        }
+
+        .circle a {
+            color: white;
+
+        }
+
+        .circle:hover a {
+            color: orange;
+        }
+
+        .circle:hover {
+            border: 3px orange solid;
+            background-color: white;
+        }
+
+        .orange_button {
+            background-color: orange;
+            border-radius: 0%;
+        }
+
+        .contact-form {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            width: 100%;
+
+        }
+
+        .circle-50-50 {
+            height: 55px;
+            width: 55px;
+            border-radius: 50%;
+            background-color: transparent;
+            border: 1px dashed orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle-50-50:hover {
+            height: 55px;
+            width: 55px;
+            border-radius: 50%;
+
+        }
+
+        .for-after {
+            position: relative;
+        }
+
+        .for-after::after {
+            position: absolute;
+            content: "";
+            width: 75%;
+            height: 3px;
+            background-color: orange;
+            bottom: 0px;
+        }
+
+        .for-before::before {
+            position: absolute;
+            content: "";
+            margin-bottom: 10px;
+        }
+
+        .primary-title {
+            position: relative;
+        }
+
+        .primary-title::before {
+            content: "";
+            position: absolute;
+            height: 2px;
+            width: 50%;
+            background-color: orange;
+            left: 0;
+            bottom: -15px;
+        }
+
+        .primary-title::after {
+            content: "\f005";
+            font-family: "Font Awesome 5 Free";
+            position: absolute;
+            left: 25%;
+            background-color: white;
+            color: orange;
+            bottom: -30px;
+            font-size: 25px;
+        }
+
+        form {
+            padding: 15px;
+        }
+
+        .form-control {
+            min-height: 50px;
+        }
+
+        .form-control:focus {
+            border-color: orange;
+            box-shadow: 0 0 0 0.25rem rgba(255, 165, 0, 0.5);
+            min-height: 50px;
+        }
+
+        button {
+            height: 50px;
+        }
+
+        iframe {
+            margin-top: 95px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="p-3 ">
+        <section class="">
+            <div class="container mt-5">
+                <div class="row ">
+                    <div class="col-6">
+                        <div class="primary-title mb-5">
+                            <h2 class="fw-bolder"><span class="orange_color">Get</span><span class="ms-2">In
+                                    Touch</span>
+                            </h2>
+                        </div>
+
+                        <p class="mb-5 pe-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eveniet
+                            quo
+                            expedita, iste
+                            illo quisquam corrupti vel
+                        </p>
+                        <div class="row mb-4">
+                            <div class="col-5">
+                                <div class="d-flex align-items-center">
+                                    <div class="circle-50-50 me-3">
+                                        <div class="circle">
+                                            <a href="#"><i class="fa-solid fa-headphones-simple icon_hover"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="d-block mt-0">
+                                        <p class="p-0 m-0 h5">Call US</p>
+                                        <p class="p-0 m-0 fw-light text-secondary">+977 9817519464</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-5">
+                                <div class="d-flex align-items-center">
+                                    <div class="circle-50-50 mb-3 me-3 mt-3">
+                                        <div class="circle">
+                                            <a href="#"><i class="fa-solid fa-envelope-open-text icon_hover"></i></a>
+                                        </div>
+                                    </div>
+                                    <div class="d-block mt-0">
+                                        <p class="p-0 m-0 h5">Mail US</p>
+                                        <p class="p-0 m-0 fw-light text-secondary">acfdc@agag.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 position-relative">
+                        <div class="rounded p-3 contact-form shadow bg-light">
+                            <form action="/">
+                                <label for="Name" class="fw-bolder pb-4">Ask Anything?</label>
+                                <input type="text" class="form-control rounded-0 mb-4" placeholder="Name">
+                                <input type="email" class="form-control rounded-0 mb-4" placeholder="E-mail">
+                                <textarea name="Message" id="message" cols="30" rows="10"
+                                    class="form-control rounded-0 mb-4" placeholder="Message"></textarea>
+                                <div class="text-end"><button class="btn orange_button text-white px-4">Send</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56530.06460966154!2d85.3311488!3d27.682406399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1a266b342bc5%3A0x73bbfa829a89af1b!2sTribhuvan%20International%20Airport!5e0!3m2!1sen!2snp!4v1655987058959!5m2!1sen!2snp"
+                    width="100%" height="500px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        </section>
+    </div>
+
+</body>
+
+</html>

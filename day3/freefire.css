@@ -1,0 +1,11 @@
+.text {
+  color: grey;
+  font-weight: 300;
+}
+.bg {
+  background-color: #131e29;
+  border-radius: 5px;
+}
+h4 {
+  color: white;
+}

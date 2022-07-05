@@ -1,0 +1,64 @@
+body {
+  font-family: "Inconsolata", monospace;
+}
+.circle {
+  border: 1px solid orange;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
+.links {
+  color: white;
+  text-decoration: none;
+  margin-top: 10px;
+}
+p {
+  color: white;
+}
+.links:hover {
+  color: orange;
+  padding-left: 30px;
+}
+.circle-social {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-logo {
+  color: orange;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.circle-social:hover {
+  background-color: black;
+}
+.topics-bottom-border {
+  border: 100px solid orange;
+}
+h4 {
+  color: orange;
+}
+.footer-title {
+  position: relative;
+  margin-bottom: 15px;
+}
+.footer-title::after {
+  position: absolute;
+  content: "";
+  width: 50%;
+  height: 2px;
+  bottom: -5px;
+  left: 0px;
+  background-color: brown;
+}
+.scroll-down {
+  height: 400px;
+  overflow: auto;
+}

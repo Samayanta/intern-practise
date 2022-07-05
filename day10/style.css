@@ -1,0 +1,116 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 300px;
+  width: auto;
+}
+
+.circle {
+  border: 30px grey solid;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-color {
+  background-color: #100f3a;
+}
+.info-box {
+  color: white;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #8583e1;
+}
+.nav-pills .nav-link {
+  background: 0 0;
+  border: 0;
+  border-radius: 0px;
+  padding: 10px 20px;
+}
+.btn {
+  padding: 10px 20px !important;
+}
+.ul-bg {
+  background-color: #100f3a;
+  padding: 5px 5px;
+}
+.skills-icons i {
+  color: #8583e1;
+}
+.quote-button {
+  background-color: #8583e1;
+}
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0px;
+}
+.services-icons i {
+  color: #8583e1;
+}
+.experience-freelance-button {
+  background-color: #8583e1;
+  border-radius: 5px 5px 5px 5px;
+}
+.btn-color {
+  background-color: #100f3a;
+  border-radius: 0px 5px 5px 0px;
+}
+.experience-freelance-button:hover {
+  background-color: #100f3a;
+}
+.experience-freelance-button:hover p {
+  color: rgb(255, 255, 255);
+}
+.exp-text-color {
+  color: #8583e1;
+}
+iframe {
+  width: 100%;
+  height: 100%;
+}
+.form-control {
+  border-bottom: 3px solid #ced4da;
+  border-top: #ced4da;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: transparent;
+}
+.form-control:hover {
+  border-bottom: 3px solid #8583e1;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: transparent;
+  border-color: #8583e1;
+  outline: 0;
+  box-shadow: 0 0 0 0;
+}
+.btn {
+  border-radius: 0px !important;
+}
+.scrollgen {
+  overflow-y: scroll;
+  height: 140px;
+  width: auto;
+}
+.gen-info-content {
+  margin-bottom: 10px;
+}
+.gen-info-content span {
+  color: grey;
+}
+.gen-info-content span:hover {
+  color: white;
+}

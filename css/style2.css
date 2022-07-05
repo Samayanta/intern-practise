@@ -1,0 +1,15 @@
+.content-absolute {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.contents-absolute {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.search-absolute {
+  position: absolute;
+  bottom: 12px;
+  padding-left: 12px;
+}

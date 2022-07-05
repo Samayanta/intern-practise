@@ -1,0 +1,11 @@
+.nav-linker {
+  color: #dddddd;
+  text-decoration: none;
+}
+.nav-linker.active,
+.nav-linker:hover {
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
